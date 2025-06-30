@@ -22,15 +22,15 @@ This Streamlit app is an interactive web-based tool that helps telecom businesse
  TECHNOLOGIES USED
 
  Component             Library Used                     
-|-------------------|----------------------------------|
-| Frontend/UI       | Streamlit                        |
-| ML Model          | XGBoost                          |
-| Text Vectorization| scikit-learn's TfidfVectorizer   |
-| Sentiment Analysis| TextBlob                         |
-| Data Processing   | pandas, numpy                    |
-| Visualizations    | seaborn, matplotlib              |
-| Model Persistence | joblib                           |
-| Text Cleaning     | NLTK (stopwords)                 |
+
+ Frontend/UI           Streamlit                      
+ ML Model              XGBoost                          
+ Text Vectorization    scikit-learn's TfidfVectorizer   
+ Sentiment Analysis    TextBlob                         
+ Data Processing       pandas, numpy                    
+ Visualizations        seaborn, matplotlib              
+ Model Persistence     joblib                  
+ Text Cleaning         NLTK (stopwords)              
 
 
 
