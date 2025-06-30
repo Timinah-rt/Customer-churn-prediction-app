@@ -21,11 +21,11 @@ This Streamlit app is an interactive web-based tool that helps telecom businesse
 
  TECHNOLOGIES USED
 
- Component             Library Used                     
+ Component        &       Library Used                     
 
  Frontend/UI         -   Streamlit                      
  ML Model             -  XGBoost                          
- Text Vectorization    - scikit-learn's TfidfVectorizer   
+ Text Vectorization    - scikit-learn's  , TfidfVectorizer   
  Sentiment Analysis   -  TextBlob                         
  Data Processing      -  pandas, numpy                    
  Visualizations       -   seaborn, matplotlib              
@@ -35,7 +35,7 @@ This Streamlit app is an interactive web-based tool that helps telecom businesse
 
 
  📁 Folder Structure
-churn-prediction-app/
+Churn-Prediction-App
  app.py # Main Streamlit app
  churn_model.pkl # Trained XGBoost model
  tfidf_model.pkl # Trained TF-IDF vectorizer
