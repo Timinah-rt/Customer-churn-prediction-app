@@ -103,7 +103,7 @@ if uploaded_file is not None:
         df_display['Predicted_Churn'] = preds
         df_display['Predicted_Churn'] = df_display['Predicted_Churn'].map({1: "Yes", 0: "No"})
 
-    st.subheader("🔮 Prediction Results")
+    st.subheader(" Prediction Results")
     if 'customerID' in df_display.columns:
         st.dataframe(df_display[['customerID', 'Predicted_Churn']])
     else:
