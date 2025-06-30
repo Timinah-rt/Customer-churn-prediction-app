@@ -23,25 +23,25 @@ This Streamlit app is an interactive web-based tool that helps telecom businesse
 
  Component             Library Used                     
 
- Frontend/UI           Streamlit                      
- ML Model              XGBoost                          
- Text Vectorization    scikit-learn's TfidfVectorizer   
- Sentiment Analysis    TextBlob                         
- Data Processing       pandas, numpy                    
- Visualizations        seaborn, matplotlib              
- Model Persistence     joblib                  
- Text Cleaning         NLTK (stopwords)              
+ Frontend/UI         -   Streamlit                      
+ ML Model             -  XGBoost                          
+ Text Vectorization    - scikit-learn's TfidfVectorizer   
+ Sentiment Analysis   -  TextBlob                         
+ Data Processing      -  pandas, numpy                    
+ Visualizations       -   seaborn, matplotlib              
+ Model Persistence     - joblib                  
+ Text Cleaning        -  NLTK (stopwords)              
 
 
 
  📁 Folder Structure
 churn-prediction-app/
-├── app.py # Main Streamlit app
-├── churn_model.pkl # Trained XGBoost model
-├── tfidf_model.pkl # Trained TF-IDF vectorizer
-├── training_columns.pkl # List of columns used during training
-├── requirements.txt # List of dependencies
-├── README.md # Project documentation
-└── sample_data.csv # Optional sample input
+ app.py # Main Streamlit app
+ churn_model.pkl # Trained XGBoost model
+ tfidf_model.pkl # Trained TF-IDF vectorizer
+ training_columns.pkl # List of columns used during training
+ requirements.txt # List of dependencies
+ README.md # Project documentation
+ sample_data.csv # Optional sample input
 
 
