@@ -32,6 +32,11 @@ This Streamlit app is an interactive web-based tool that helps telecom businesse
  Model Persistence     - joblib                  
  Text Cleaning        -  NLTK (stopwords)              
 
+DEPLOYMENT
+
+This app is deployed using  Streamlit Cloud for quick and easy access.  
+
+URL: https://customer-churn-prediction-app-ba6ngznfvbtzsmzvwwunia.streamlit.app
 
 
 
